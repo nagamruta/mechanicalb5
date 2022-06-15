@@ -1,0 +1,16 @@
+body{
+  background-color: #101820FF;
+}
+h1{
+  text-align: center;
+  color:#D6AA6C;
+  font-family: monospace;
+}
+.box{
+  text-align: center;
+  font-size: 50px;
+}
+.button{
+  color: #101820FF;
+  background-color: #819DAB;
+}

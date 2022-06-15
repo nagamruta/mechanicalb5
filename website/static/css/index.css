@@ -1,0 +1,141 @@
+body{
+  background: #101820FF;
+}
+h1{
+  color: #FFBBD6;
+  text-align: center;
+  background-color: black;
+  font-family: monospace;
+}
+h2{
+  color:#D6AA6C;
+  text-align: center;
+}
+p{
+  color:orange;
+  text-align: center;
+  font-family:monospace;
+  font-size: 30px;
+
+}
+.sjce{
+  position: absolute;
+  top: 4px;
+  right: 8px;
+}
+.prop{
+  text-align: center;
+  padding-top: 2px;
+  padding-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.button1{
+  text-decoration: none;
+  color: #819DAB;
+  font-size: 30px;
+  font-family:sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 5px;
+}
+.button1:hover {
+  background-color: #819DAB;
+  text-decoration: none;
+  display: inline-block;
+  color: #101820FF;
+}
+.button2{
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 30px;
+  color: #819DAB;
+  font-family:sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 5px;
+}
+.button2:hover{
+  background-color: #819DAB;
+  text-decoration: none;
+  display: inline-block;
+  color: #101820FF;
+  list-style-type: none;
+}
+
+.button3{
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 30px;
+  color: #819DAB;
+  font-family:sans-serif;
+  padding-top: 5px;
+  margin: 5px;
+  padding-bottom: 5px;
+}
+.button3:hover{
+  background-color: #819DAB;
+  text-decoration: none;
+  display: inline-block;
+  color: #101820FF;
+  list-style-type: none;
+}
+.button4{
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 30px;
+  color: #819DAB;
+  font-family:sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 5px;
+}
+.button4:hover{
+  background-color: #819DAB;
+  text-decoration: none;
+  display: inline-block;
+  color: #101820FF;
+  list-style-type: none;
+}
+
+.button5{
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 30px;
+  color: #819DAB;
+  font-family:sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 5px;
+}
+.button5:hover{
+  background-color: #819DAB;
+  text-decoration: none;
+  display: inline-block;
+  color: #101820FF;
+  list-style-type: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.button6{
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 30px;
+  color: #819DAB;
+  font-family:sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 5px;
+}
+.button6:hover{
+  background-color: #819DAB;
+  text-decoration: none;
+  display: inline-block;
+  color: #101820FF;
+  list-style-type: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'css/prop.css' %}">
+    <title></title>
+  </head>
+  <body>
+    <h1>Enter the percentage of composition</h1>
+    <div class="box">
+
+
+    <form class="elongation"  method="POST">
+       {% csrf_token %}
+      <input type="text" name="elongation" width:20px; value="">
+      <input class="button" type="submit" name="predict" value="Predict" width="20px">
+
+    </form>
+    </div>
+    <h1> The Predicted value is {{ C }}</h1>
+  </body>
+</html>

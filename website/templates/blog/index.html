@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <title></title>
+  </head>
+  <body>
+    <img src="{% static 'images/logo.jpg' %}" alt="",height="80" width="200">
+    <img src="{% static 'images/sjce.jfif' %}" class="sjce" alt="" height="80">
+    <h1>Analysis of Mechanical properties of Aluminium based composites Using ML</h1>
+    <h2>Composition of material is Tib</h2>
+  <p>  Choose the Mechanical Property to Predict:</p>
+    <div class="prop">
+      <span><li>
+      <a href="{% url 'website:absorption' %}" class = "button1">Impact Strength</a></li>
+      <li> <a href="{% url 'website:elongation' %}" class="button2">% of Elongation</a></li>
+    <li>  <a href="{% url 'website:tensile' %}" class="button3"> Tensile Strength</a></li>
+    <li>  <a href="{% url 'website:vickers' %}" class="button4">Vicker's Hardness</a></li>
+    <li>  <a href="{% url 'website:wearloss' %}" class="button5">Wearloss</a> </li>
+    <li>  <a href="{% url 'website:youngs' %}" class="button6">Young's Modulus</a> </li>
+
+      </span>
+    </div>
+
+
+  </body>
+</html>
