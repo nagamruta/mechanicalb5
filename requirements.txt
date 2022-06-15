@@ -1,5 +1,5 @@
-django==3.2.5
-python==3.10.5
+django
+python
 numpy
 pandas
 matplotlib
